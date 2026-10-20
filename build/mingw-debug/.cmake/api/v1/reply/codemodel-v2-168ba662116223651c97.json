@@ -1,0 +1,314 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-9dfad94434efd1e792b3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"build" : "tests",
+					"jsonFile" : "directory-tests-Debug-70e4927a02b591d5c1f8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tests",
+					"targetIndexes" : 
+					[
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "Blocs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Blocs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Blocs-Debug-9182fb1088e1ef3ba50c.json",
+					"name" : "Blocs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Blocs_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Blocs_autogen-Debug-23ed3227c61e29d589f0.json",
+					"name" : "Blocs_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Blocs_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Blocs_autogen_timestamp_deps-Debug-1ed6f8abe95fa6fd94a9.json",
+					"name" : "Blocs_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "blocs_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-blocs_core-Debug-350b57beb141415e1a6f.json",
+					"name" : "blocs_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "blocs_core_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-blocs_core_autogen-Debug-4262c99a680efb086f3e.json",
+					"name" : "blocs_core_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "blocs_core_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-blocs_core_autogen_timestamp_deps-Debug-fc5ec80a3b45f77ecdb6.json",
+					"name" : "blocs_core_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_codegen::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-test_codegen-Debug-321854714f6a04fd9556.json",
+					"name" : "test_codegen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_codegen_autogen::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-test_codegen_autogen-Debug-a11e37bcf75421056e12.json",
+					"name" : "test_codegen_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_codegen_autogen_timestamp_deps::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-test_codegen_autogen_timestamp_deps-Debug-729ea5ad4d0dbde68822.json",
+					"name" : "test_codegen_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_editor::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-test_editor-Debug-25c76516f2cab33b5b1c.json",
+					"name" : "test_editor",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_editor_autogen::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-test_editor_autogen-Debug-0fdb4bdf2326b858b49a.json",
+					"name" : "test_editor_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_editor_autogen_timestamp_deps::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-test_editor_autogen_timestamp_deps-Debug-369e5cd02778b6195563.json",
+					"name" : "test_editor_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_explorer::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-test_explorer-Debug-da86bca958aabe50671e.json",
+					"name" : "test_explorer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_explorer_autogen::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-test_explorer_autogen-Debug-98ada9161d066ed0bf3d.json",
+					"name" : "test_explorer_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_explorer_autogen_timestamp_deps::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-test_explorer_autogen_timestamp_deps-Debug-7b4f61e844feddf7fb24.json",
+					"name" : "test_explorer_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_exporter::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-test_exporter-Debug-4c5ba8c931af9e5233c0.json",
+					"name" : "test_exporter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_exporter_autogen::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-test_exporter_autogen-Debug-bb3fb6e7e1e5819f7e4c.json",
+					"name" : "test_exporter_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_exporter_autogen_timestamp_deps::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-test_exporter_autogen_timestamp_deps-Debug-381fba091578fb053e69.json",
+					"name" : "test_exporter_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_graph::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-test_graph-Debug-979a85f9cff0c514abcc.json",
+					"name" : "test_graph",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_graph_autogen::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-test_graph_autogen-Debug-be605403f59669846721.json",
+					"name" : "test_graph_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_graph_autogen_timestamp_deps::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-test_graph_autogen_timestamp_deps-Debug-089befbe60874a54ba74.json",
+					"name" : "test_graph_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_history::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-test_history-Debug-667327a156383c492722.json",
+					"name" : "test_history",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_history_autogen::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-test_history_autogen-Debug-db99287b85fdecdd7e4d.json",
+					"name" : "test_history_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_history_autogen_timestamp_deps::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-test_history_autogen_timestamp_deps-Debug-7ee1d15115f9ff8a36f6.json",
+					"name" : "test_history_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_tutorials::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-test_tutorials-Debug-9d7e0dc92f96f2469abd.json",
+					"name" : "test_tutorials",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_tutorials_autogen::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-test_tutorials_autogen-Debug-495b373c70bebe2be899.json",
+					"name" : "test_tutorials_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "test_tutorials_autogen_timestamp_deps::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-test_tutorials_autogen_timestamp_deps-Debug-cb65569ac5e7798cc39c.json",
+					"name" : "test_tutorials_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/ivann/Downloads/Blocs/build/mingw-debug",
+		"source" : "C:/Users/ivann/Downloads/Blocs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

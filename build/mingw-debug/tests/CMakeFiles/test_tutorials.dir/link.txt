@@ -1,0 +1,3 @@
+C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f CMakeFiles\test_tutorials.dir/objects.a
+C:\Qt\Tools\mingw1310_64\bin\ar.exe qc CMakeFiles\test_tutorials.dir/objects.a @CMakeFiles\test_tutorials.dir\objects1.rsp
+C:\Qt\Tools\mingw1310_64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\test_tutorials.dir/objects.a -Wl,--no-whole-archive -o test_tutorials.exe -Wl,--out-implib,libtest_tutorials.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\test_tutorials.dir\linkLibs.rsp

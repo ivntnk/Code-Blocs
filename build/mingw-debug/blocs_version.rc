@@ -1,0 +1,32 @@
+// Généré par CMake : informations de version du .exe (Propriétés > Détails).
+// Volontairement en ASCII pour rester compatible avec windres (MinGW) comme avec rc.exe (MSVC).
+#include <winver.h>
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK 0x3fL
+ FILEFLAGS 0x0L
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040c04b0"
+        BEGIN
+            VALUE "CompanyName",      "Blocs"
+            VALUE "FileDescription",  "Blocs - programmation visuelle par blocs"
+            VALUE "FileVersion",      "1.0.0"
+            VALUE "InternalName",     "Blocs"
+            VALUE "LegalCopyright",   "Copyright (C) Blocs"
+            VALUE "OriginalFilename", "Blocs.exe"
+            VALUE "ProductName",      "Blocs"
+            VALUE "ProductVersion",   "1.0.0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x040c, 1200
+    END
+END

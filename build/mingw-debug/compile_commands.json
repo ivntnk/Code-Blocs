@@ -1,0 +1,182 @@
+[
+{
+  "directory": "C:/Users/ivann/Downloads/Blocs/build/mingw-debug",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DBLOCS_VERSION=\\\"1.0.0\\\" -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_QML_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/blocs_core.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -Wall -Wextra -Wpedantic -Wnon-virtual-dtor -Woverloaded-virtual -Wcast-align -Wunused -Wformat=2 -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -o CMakeFiles\\blocs_core.dir\\blocs_core_autogen\\mocs_compilation.cpp.obj -c C:\\Users\\ivann\\Downloads\\Blocs\\build\\mingw-debug\\blocs_core_autogen\\mocs_compilation.cpp",
+  "file": "C:/Users/ivann/Downloads/Blocs/build/mingw-debug/blocs_core_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/blocs_core.dir/blocs_core_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "C:/Users/ivann/Downloads/Blocs/build/mingw-debug",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DBLOCS_VERSION=\\\"1.0.0\\\" -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_QML_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/blocs_core.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -Wall -Wextra -Wpedantic -Wnon-virtual-dtor -Woverloaded-virtual -Wcast-align -Wunused -Wformat=2 -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -o CMakeFiles\\blocs_core.dir\\src\\graph.cpp.obj -c C:\\Users\\ivann\\Downloads\\Blocs\\src\\graph.cpp",
+  "file": "C:/Users/ivann/Downloads/Blocs/src/graph.cpp",
+  "output": "CMakeFiles/blocs_core.dir/src/graph.cpp.obj"
+},
+{
+  "directory": "C:/Users/ivann/Downloads/Blocs/build/mingw-debug",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DBLOCS_VERSION=\\\"1.0.0\\\" -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_QML_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/blocs_core.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -Wall -Wextra -Wpedantic -Wnon-virtual-dtor -Woverloaded-virtual -Wcast-align -Wunused -Wformat=2 -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -o CMakeFiles\\blocs_core.dir\\src\\editor.cpp.obj -c C:\\Users\\ivann\\Downloads\\Blocs\\src\\editor.cpp",
+  "file": "C:/Users/ivann/Downloads/Blocs/src/editor.cpp",
+  "output": "CMakeFiles/blocs_core.dir/src/editor.cpp.obj"
+},
+{
+  "directory": "C:/Users/ivann/Downloads/Blocs/build/mingw-debug",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DBLOCS_VERSION=\\\"1.0.0\\\" -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_QML_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/blocs_core.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -Wall -Wextra -Wpedantic -Wnon-virtual-dtor -Woverloaded-virtual -Wcast-align -Wunused -Wformat=2 -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -o CMakeFiles\\blocs_core.dir\\src\\codegen.cpp.obj -c C:\\Users\\ivann\\Downloads\\Blocs\\src\\codegen.cpp",
+  "file": "C:/Users/ivann/Downloads/Blocs/src/codegen.cpp",
+  "output": "CMakeFiles/blocs_core.dir/src/codegen.cpp.obj"
+},
+{
+  "directory": "C:/Users/ivann/Downloads/Blocs/build/mingw-debug",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DBLOCS_VERSION=\\\"1.0.0\\\" -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_QML_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/blocs_core.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -Wall -Wextra -Wpedantic -Wnon-virtual-dtor -Woverloaded-virtual -Wcast-align -Wunused -Wformat=2 -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -o CMakeFiles\\blocs_core.dir\\src\\runner.cpp.obj -c C:\\Users\\ivann\\Downloads\\Blocs\\src\\runner.cpp",
+  "file": "C:/Users/ivann/Downloads/Blocs/src/runner.cpp",
+  "output": "CMakeFiles/blocs_core.dir/src/runner.cpp.obj"
+},
+{
+  "directory": "C:/Users/ivann/Downloads/Blocs/build/mingw-debug",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DBLOCS_VERSION=\\\"1.0.0\\\" -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_QML_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/blocs_core.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -Wall -Wextra -Wpedantic -Wnon-virtual-dtor -Woverloaded-virtual -Wcast-align -Wunused -Wformat=2 -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -o CMakeFiles\\blocs_core.dir\\src\\gamewindow.cpp.obj -c C:\\Users\\ivann\\Downloads\\Blocs\\src\\gamewindow.cpp",
+  "file": "C:/Users/ivann/Downloads/Blocs/src/gamewindow.cpp",
+  "output": "CMakeFiles/blocs_core.dir/src/gamewindow.cpp.obj"
+},
+{
+  "directory": "C:/Users/ivann/Downloads/Blocs/build/mingw-debug",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DBLOCS_VERSION=\\\"1.0.0\\\" -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_QML_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/blocs_core.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -Wall -Wextra -Wpedantic -Wnon-virtual-dtor -Woverloaded-virtual -Wcast-align -Wunused -Wformat=2 -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -o CMakeFiles\\blocs_core.dir\\src\\exporter.cpp.obj -c C:\\Users\\ivann\\Downloads\\Blocs\\src\\exporter.cpp",
+  "file": "C:/Users/ivann/Downloads/Blocs/src/exporter.cpp",
+  "output": "CMakeFiles/blocs_core.dir/src/exporter.cpp.obj"
+},
+{
+  "directory": "C:/Users/ivann/Downloads/Blocs/build/mingw-debug",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DBLOCS_VERSION=\\\"1.0.0\\\" -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_QML_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/blocs_core.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -Wall -Wextra -Wpedantic -Wnon-virtual-dtor -Woverloaded-virtual -Wcast-align -Wunused -Wformat=2 -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -o CMakeFiles\\blocs_core.dir\\src\\assetsdialog.cpp.obj -c C:\\Users\\ivann\\Downloads\\Blocs\\src\\assetsdialog.cpp",
+  "file": "C:/Users/ivann/Downloads/Blocs/src/assetsdialog.cpp",
+  "output": "CMakeFiles/blocs_core.dir/src/assetsdialog.cpp.obj"
+},
+{
+  "directory": "C:/Users/ivann/Downloads/Blocs/build/mingw-debug",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DBLOCS_VERSION=\\\"1.0.0\\\" -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_QML_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/blocs_core.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -Wall -Wextra -Wpedantic -Wnon-virtual-dtor -Woverloaded-virtual -Wcast-align -Wunused -Wformat=2 -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -o CMakeFiles\\blocs_core.dir\\src\\explorer.cpp.obj -c C:\\Users\\ivann\\Downloads\\Blocs\\src\\explorer.cpp",
+  "file": "C:/Users/ivann/Downloads/Blocs/src/explorer.cpp",
+  "output": "CMakeFiles/blocs_core.dir/src/explorer.cpp.obj"
+},
+{
+  "directory": "C:/Users/ivann/Downloads/Blocs/build/mingw-debug",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DBLOCS_VERSION=\\\"1.0.0\\\" -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_QML_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/blocs_core.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -Wall -Wextra -Wpedantic -Wnon-virtual-dtor -Woverloaded-virtual -Wcast-align -Wunused -Wformat=2 -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -o CMakeFiles\\blocs_core.dir\\src\\examples.cpp.obj -c C:\\Users\\ivann\\Downloads\\Blocs\\src\\examples.cpp",
+  "file": "C:/Users/ivann/Downloads/Blocs/src/examples.cpp",
+  "output": "CMakeFiles/blocs_core.dir/src/examples.cpp.obj"
+},
+{
+  "directory": "C:/Users/ivann/Downloads/Blocs/build/mingw-debug",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DBLOCS_VERSION=\\\"1.0.0\\\" -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_QML_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/blocs_core.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -Wall -Wextra -Wpedantic -Wnon-virtual-dtor -Woverloaded-virtual -Wcast-align -Wunused -Wformat=2 -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -o CMakeFiles\\blocs_core.dir\\src\\tutorials.cpp.obj -c C:\\Users\\ivann\\Downloads\\Blocs\\src\\tutorials.cpp",
+  "file": "C:/Users/ivann/Downloads/Blocs/src/tutorials.cpp",
+  "output": "CMakeFiles/blocs_core.dir/src/tutorials.cpp.obj"
+},
+{
+  "directory": "C:/Users/ivann/Downloads/Blocs/build/mingw-debug",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DBLOCS_VERSION=\\\"1.0.0\\\" -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_QML_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/blocs_core.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -Wall -Wextra -Wpedantic -Wnon-virtual-dtor -Woverloaded-virtual -Wcast-align -Wunused -Wformat=2 -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -o CMakeFiles\\blocs_core.dir\\src\\tutorialdialog.cpp.obj -c C:\\Users\\ivann\\Downloads\\Blocs\\src\\tutorialdialog.cpp",
+  "file": "C:/Users/ivann/Downloads/Blocs/src/tutorialdialog.cpp",
+  "output": "CMakeFiles/blocs_core.dir/src/tutorialdialog.cpp.obj"
+},
+{
+  "directory": "C:/Users/ivann/Downloads/Blocs/build/mingw-debug",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DBLOCS_VERSION=\\\"1.0.0\\\" -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_QML_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/blocs_core.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -Wall -Wextra -Wpedantic -Wnon-virtual-dtor -Woverloaded-virtual -Wcast-align -Wunused -Wformat=2 -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -o CMakeFiles\\blocs_core.dir\\src\\mainwindow.cpp.obj -c C:\\Users\\ivann\\Downloads\\Blocs\\src\\mainwindow.cpp",
+  "file": "C:/Users/ivann/Downloads/Blocs/src/mainwindow.cpp",
+  "output": "CMakeFiles/blocs_core.dir/src/mainwindow.cpp.obj"
+},
+{
+  "directory": "C:/Users/ivann/Downloads/Blocs/build/mingw-debug",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DBLOCS_VERSION=\\\"1.0.0\\\" -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_QML_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/Blocs.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -Wall -Wextra -Wpedantic -Wnon-virtual-dtor -Woverloaded-virtual -Wcast-align -Wunused -Wformat=2 -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -o CMakeFiles\\Blocs.dir\\Blocs_autogen\\mocs_compilation.cpp.obj -c C:\\Users\\ivann\\Downloads\\Blocs\\build\\mingw-debug\\Blocs_autogen\\mocs_compilation.cpp",
+  "file": "C:/Users/ivann/Downloads/Blocs/build/mingw-debug/Blocs_autogen/mocs_compilation.cpp",
+  "output": "CMakeFiles/Blocs.dir/Blocs_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "C:/Users/ivann/Downloads/Blocs/build/mingw-debug",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DBLOCS_VERSION=\\\"1.0.0\\\" -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_QML_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/Blocs.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -Wall -Wextra -Wpedantic -Wnon-virtual-dtor -Woverloaded-virtual -Wcast-align -Wunused -Wformat=2 -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -o CMakeFiles\\Blocs.dir\\src\\main.cpp.obj -c C:\\Users\\ivann\\Downloads\\Blocs\\src\\main.cpp",
+  "file": "C:/Users/ivann/Downloads/Blocs/src/main.cpp",
+  "output": "CMakeFiles/Blocs.dir/src/main.cpp.obj"
+},
+{
+  "directory": "C:/Users/ivann/Downloads/Blocs/build/mingw-debug",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DBLOCS_VERSION=\\\"1.0.0\\\" -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_QML_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/Blocs.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -Wall -Wextra -Wpedantic -Wnon-virtual-dtor -Woverloaded-virtual -Wcast-align -Wunused -Wformat=2 -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -o CMakeFiles\\Blocs.dir\\Blocs_autogen\\3YJK5W5UP7\\qrc_resources.cpp.obj -c C:\\Users\\ivann\\Downloads\\Blocs\\build\\mingw-debug\\Blocs_autogen\\3YJK5W5UP7\\qrc_resources.cpp",
+  "file": "C:/Users/ivann/Downloads/Blocs/build/mingw-debug/Blocs_autogen/3YJK5W5UP7/qrc_resources.cpp",
+  "output": "CMakeFiles/Blocs.dir/Blocs_autogen/3YJK5W5UP7/qrc_resources.cpp.obj"
+},
+{
+  "directory": "C:/Users/ivann/Downloads/Blocs/build/mingw-debug/tests",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DBLOCS_VERSION=\\\"1.0.0\\\" -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_QML_DEBUG -DQT_TESTCASE_BUILDDIR=\\\"C:/Users/ivann/Downloads/Blocs/build/mingw-debug/tests\\\" -DQT_TESTCASE_SOURCEDIR=\\\"C:/Users/ivann/Downloads/Blocs/tests\\\" -DQT_TESTLIB_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/test_history.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -Wall -Wextra -Wpedantic -Wnon-virtual-dtor -Woverloaded-virtual -Wcast-align -Wunused -Wformat=2 -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -o CMakeFiles\\test_history.dir\\test_history_autogen\\mocs_compilation.cpp.obj -c C:\\Users\\ivann\\Downloads\\Blocs\\build\\mingw-debug\\tests\\test_history_autogen\\mocs_compilation.cpp",
+  "file": "C:/Users/ivann/Downloads/Blocs/build/mingw-debug/tests/test_history_autogen/mocs_compilation.cpp",
+  "output": "tests/CMakeFiles/test_history.dir/test_history_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "C:/Users/ivann/Downloads/Blocs/build/mingw-debug/tests",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DBLOCS_VERSION=\\\"1.0.0\\\" -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_QML_DEBUG -DQT_TESTCASE_BUILDDIR=\\\"C:/Users/ivann/Downloads/Blocs/build/mingw-debug/tests\\\" -DQT_TESTCASE_SOURCEDIR=\\\"C:/Users/ivann/Downloads/Blocs/tests\\\" -DQT_TESTLIB_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/test_history.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -Wall -Wextra -Wpedantic -Wnon-virtual-dtor -Woverloaded-virtual -Wcast-align -Wunused -Wformat=2 -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -o CMakeFiles\\test_history.dir\\test_history.cpp.obj -c C:\\Users\\ivann\\Downloads\\Blocs\\tests\\test_history.cpp",
+  "file": "C:/Users/ivann/Downloads/Blocs/tests/test_history.cpp",
+  "output": "tests/CMakeFiles/test_history.dir/test_history.cpp.obj"
+},
+{
+  "directory": "C:/Users/ivann/Downloads/Blocs/build/mingw-debug/tests",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DBLOCS_VERSION=\\\"1.0.0\\\" -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_QML_DEBUG -DQT_TESTCASE_BUILDDIR=\\\"C:/Users/ivann/Downloads/Blocs/build/mingw-debug/tests\\\" -DQT_TESTCASE_SOURCEDIR=\\\"C:/Users/ivann/Downloads/Blocs/tests\\\" -DQT_TESTLIB_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/test_graph.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -Wall -Wextra -Wpedantic -Wnon-virtual-dtor -Woverloaded-virtual -Wcast-align -Wunused -Wformat=2 -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -o CMakeFiles\\test_graph.dir\\test_graph_autogen\\mocs_compilation.cpp.obj -c C:\\Users\\ivann\\Downloads\\Blocs\\build\\mingw-debug\\tests\\test_graph_autogen\\mocs_compilation.cpp",
+  "file": "C:/Users/ivann/Downloads/Blocs/build/mingw-debug/tests/test_graph_autogen/mocs_compilation.cpp",
+  "output": "tests/CMakeFiles/test_graph.dir/test_graph_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "C:/Users/ivann/Downloads/Blocs/build/mingw-debug/tests",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DBLOCS_VERSION=\\\"1.0.0\\\" -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_QML_DEBUG -DQT_TESTCASE_BUILDDIR=\\\"C:/Users/ivann/Downloads/Blocs/build/mingw-debug/tests\\\" -DQT_TESTCASE_SOURCEDIR=\\\"C:/Users/ivann/Downloads/Blocs/tests\\\" -DQT_TESTLIB_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/test_graph.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -Wall -Wextra -Wpedantic -Wnon-virtual-dtor -Woverloaded-virtual -Wcast-align -Wunused -Wformat=2 -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -o CMakeFiles\\test_graph.dir\\test_graph.cpp.obj -c C:\\Users\\ivann\\Downloads\\Blocs\\tests\\test_graph.cpp",
+  "file": "C:/Users/ivann/Downloads/Blocs/tests/test_graph.cpp",
+  "output": "tests/CMakeFiles/test_graph.dir/test_graph.cpp.obj"
+},
+{
+  "directory": "C:/Users/ivann/Downloads/Blocs/build/mingw-debug/tests",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DBLOCS_VERSION=\\\"1.0.0\\\" -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_QML_DEBUG -DQT_TESTCASE_BUILDDIR=\\\"C:/Users/ivann/Downloads/Blocs/build/mingw-debug/tests\\\" -DQT_TESTCASE_SOURCEDIR=\\\"C:/Users/ivann/Downloads/Blocs/tests\\\" -DQT_TESTLIB_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/test_editor.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -Wall -Wextra -Wpedantic -Wnon-virtual-dtor -Woverloaded-virtual -Wcast-align -Wunused -Wformat=2 -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -o CMakeFiles\\test_editor.dir\\test_editor_autogen\\mocs_compilation.cpp.obj -c C:\\Users\\ivann\\Downloads\\Blocs\\build\\mingw-debug\\tests\\test_editor_autogen\\mocs_compilation.cpp",
+  "file": "C:/Users/ivann/Downloads/Blocs/build/mingw-debug/tests/test_editor_autogen/mocs_compilation.cpp",
+  "output": "tests/CMakeFiles/test_editor.dir/test_editor_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "C:/Users/ivann/Downloads/Blocs/build/mingw-debug/tests",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DBLOCS_VERSION=\\\"1.0.0\\\" -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_QML_DEBUG -DQT_TESTCASE_BUILDDIR=\\\"C:/Users/ivann/Downloads/Blocs/build/mingw-debug/tests\\\" -DQT_TESTCASE_SOURCEDIR=\\\"C:/Users/ivann/Downloads/Blocs/tests\\\" -DQT_TESTLIB_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/test_editor.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -Wall -Wextra -Wpedantic -Wnon-virtual-dtor -Woverloaded-virtual -Wcast-align -Wunused -Wformat=2 -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -o CMakeFiles\\test_editor.dir\\test_editor.cpp.obj -c C:\\Users\\ivann\\Downloads\\Blocs\\tests\\test_editor.cpp",
+  "file": "C:/Users/ivann/Downloads/Blocs/tests/test_editor.cpp",
+  "output": "tests/CMakeFiles/test_editor.dir/test_editor.cpp.obj"
+},
+{
+  "directory": "C:/Users/ivann/Downloads/Blocs/build/mingw-debug/tests",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DBLOCS_VERSION=\\\"1.0.0\\\" -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_QML_DEBUG -DQT_TESTCASE_BUILDDIR=\\\"C:/Users/ivann/Downloads/Blocs/build/mingw-debug/tests\\\" -DQT_TESTCASE_SOURCEDIR=\\\"C:/Users/ivann/Downloads/Blocs/tests\\\" -DQT_TESTLIB_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/test_codegen.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -Wall -Wextra -Wpedantic -Wnon-virtual-dtor -Woverloaded-virtual -Wcast-align -Wunused -Wformat=2 -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -o CMakeFiles\\test_codegen.dir\\test_codegen_autogen\\mocs_compilation.cpp.obj -c C:\\Users\\ivann\\Downloads\\Blocs\\build\\mingw-debug\\tests\\test_codegen_autogen\\mocs_compilation.cpp",
+  "file": "C:/Users/ivann/Downloads/Blocs/build/mingw-debug/tests/test_codegen_autogen/mocs_compilation.cpp",
+  "output": "tests/CMakeFiles/test_codegen.dir/test_codegen_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "C:/Users/ivann/Downloads/Blocs/build/mingw-debug/tests",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DBLOCS_VERSION=\\\"1.0.0\\\" -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_QML_DEBUG -DQT_TESTCASE_BUILDDIR=\\\"C:/Users/ivann/Downloads/Blocs/build/mingw-debug/tests\\\" -DQT_TESTCASE_SOURCEDIR=\\\"C:/Users/ivann/Downloads/Blocs/tests\\\" -DQT_TESTLIB_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/test_codegen.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -Wall -Wextra -Wpedantic -Wnon-virtual-dtor -Woverloaded-virtual -Wcast-align -Wunused -Wformat=2 -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -o CMakeFiles\\test_codegen.dir\\test_codegen.cpp.obj -c C:\\Users\\ivann\\Downloads\\Blocs\\tests\\test_codegen.cpp",
+  "file": "C:/Users/ivann/Downloads/Blocs/tests/test_codegen.cpp",
+  "output": "tests/CMakeFiles/test_codegen.dir/test_codegen.cpp.obj"
+},
+{
+  "directory": "C:/Users/ivann/Downloads/Blocs/build/mingw-debug/tests",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DBLOCS_VERSION=\\\"1.0.0\\\" -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_QML_DEBUG -DQT_TESTCASE_BUILDDIR=\\\"C:/Users/ivann/Downloads/Blocs/build/mingw-debug/tests\\\" -DQT_TESTCASE_SOURCEDIR=\\\"C:/Users/ivann/Downloads/Blocs/tests\\\" -DQT_TESTLIB_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/test_exporter.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -Wall -Wextra -Wpedantic -Wnon-virtual-dtor -Woverloaded-virtual -Wcast-align -Wunused -Wformat=2 -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -o CMakeFiles\\test_exporter.dir\\test_exporter_autogen\\mocs_compilation.cpp.obj -c C:\\Users\\ivann\\Downloads\\Blocs\\build\\mingw-debug\\tests\\test_exporter_autogen\\mocs_compilation.cpp",
+  "file": "C:/Users/ivann/Downloads/Blocs/build/mingw-debug/tests/test_exporter_autogen/mocs_compilation.cpp",
+  "output": "tests/CMakeFiles/test_exporter.dir/test_exporter_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "C:/Users/ivann/Downloads/Blocs/build/mingw-debug/tests",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DBLOCS_VERSION=\\\"1.0.0\\\" -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_QML_DEBUG -DQT_TESTCASE_BUILDDIR=\\\"C:/Users/ivann/Downloads/Blocs/build/mingw-debug/tests\\\" -DQT_TESTCASE_SOURCEDIR=\\\"C:/Users/ivann/Downloads/Blocs/tests\\\" -DQT_TESTLIB_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/test_exporter.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -Wall -Wextra -Wpedantic -Wnon-virtual-dtor -Woverloaded-virtual -Wcast-align -Wunused -Wformat=2 -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -o CMakeFiles\\test_exporter.dir\\test_exporter.cpp.obj -c C:\\Users\\ivann\\Downloads\\Blocs\\tests\\test_exporter.cpp",
+  "file": "C:/Users/ivann/Downloads/Blocs/tests/test_exporter.cpp",
+  "output": "tests/CMakeFiles/test_exporter.dir/test_exporter.cpp.obj"
+},
+{
+  "directory": "C:/Users/ivann/Downloads/Blocs/build/mingw-debug/tests",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DBLOCS_VERSION=\\\"1.0.0\\\" -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_QML_DEBUG -DQT_TESTCASE_BUILDDIR=\\\"C:/Users/ivann/Downloads/Blocs/build/mingw-debug/tests\\\" -DQT_TESTCASE_SOURCEDIR=\\\"C:/Users/ivann/Downloads/Blocs/tests\\\" -DQT_TESTLIB_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/test_explorer.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -Wall -Wextra -Wpedantic -Wnon-virtual-dtor -Woverloaded-virtual -Wcast-align -Wunused -Wformat=2 -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -o CMakeFiles\\test_explorer.dir\\test_explorer_autogen\\mocs_compilation.cpp.obj -c C:\\Users\\ivann\\Downloads\\Blocs\\build\\mingw-debug\\tests\\test_explorer_autogen\\mocs_compilation.cpp",
+  "file": "C:/Users/ivann/Downloads/Blocs/build/mingw-debug/tests/test_explorer_autogen/mocs_compilation.cpp",
+  "output": "tests/CMakeFiles/test_explorer.dir/test_explorer_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "C:/Users/ivann/Downloads/Blocs/build/mingw-debug/tests",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DBLOCS_VERSION=\\\"1.0.0\\\" -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_QML_DEBUG -DQT_TESTCASE_BUILDDIR=\\\"C:/Users/ivann/Downloads/Blocs/build/mingw-debug/tests\\\" -DQT_TESTCASE_SOURCEDIR=\\\"C:/Users/ivann/Downloads/Blocs/tests\\\" -DQT_TESTLIB_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/test_explorer.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -Wall -Wextra -Wpedantic -Wnon-virtual-dtor -Woverloaded-virtual -Wcast-align -Wunused -Wformat=2 -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -o CMakeFiles\\test_explorer.dir\\test_explorer.cpp.obj -c C:\\Users\\ivann\\Downloads\\Blocs\\tests\\test_explorer.cpp",
+  "file": "C:/Users/ivann/Downloads/Blocs/tests/test_explorer.cpp",
+  "output": "tests/CMakeFiles/test_explorer.dir/test_explorer.cpp.obj"
+},
+{
+  "directory": "C:/Users/ivann/Downloads/Blocs/build/mingw-debug/tests",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DBLOCS_VERSION=\\\"1.0.0\\\" -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_QML_DEBUG -DQT_TESTCASE_BUILDDIR=\\\"C:/Users/ivann/Downloads/Blocs/build/mingw-debug/tests\\\" -DQT_TESTCASE_SOURCEDIR=\\\"C:/Users/ivann/Downloads/Blocs/tests\\\" -DQT_TESTLIB_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/test_tutorials.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -Wall -Wextra -Wpedantic -Wnon-virtual-dtor -Woverloaded-virtual -Wcast-align -Wunused -Wformat=2 -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -o CMakeFiles\\test_tutorials.dir\\test_tutorials_autogen\\mocs_compilation.cpp.obj -c C:\\Users\\ivann\\Downloads\\Blocs\\build\\mingw-debug\\tests\\test_tutorials_autogen\\mocs_compilation.cpp",
+  "file": "C:/Users/ivann/Downloads/Blocs/build/mingw-debug/tests/test_tutorials_autogen/mocs_compilation.cpp",
+  "output": "tests/CMakeFiles/test_tutorials.dir/test_tutorials_autogen/mocs_compilation.cpp.obj"
+},
+{
+  "directory": "C:/Users/ivann/Downloads/Blocs/build/mingw-debug/tests",
+  "command": "C:\\Qt\\Tools\\mingw1310_64\\bin\\g++.exe -DBLOCS_VERSION=\\\"1.0.0\\\" -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_QML_DEBUG -DQT_TESTCASE_BUILDDIR=\\\"C:/Users/ivann/Downloads/Blocs/build/mingw-debug/tests\\\" -DQT_TESTCASE_SOURCEDIR=\\\"C:/Users/ivann/Downloads/Blocs/tests\\\" -DQT_TESTLIB_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/test_tutorials.dir/includes_CXX.rsp -g -std=gnu++17 -fdiagnostics-color=always -Wall -Wextra -Wpedantic -Wnon-virtual-dtor -Woverloaded-virtual -Wcast-align -Wunused -Wformat=2 -Wmisleading-indentation -Wduplicated-cond -Wlogical-op -o CMakeFiles\\test_tutorials.dir\\test_tutorials.cpp.obj -c C:\\Users\\ivann\\Downloads\\Blocs\\tests\\test_tutorials.cpp",
+  "file": "C:/Users/ivann/Downloads/Blocs/tests/test_tutorials.cpp",
+  "output": "tests/CMakeFiles/test_tutorials.dir/test_tutorials.cpp.obj"
+}
+]

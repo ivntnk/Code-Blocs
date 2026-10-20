@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/ivann/Downloads/Blocs/build/mingw-debug/blocs_version.rc
+winver.h
+-
+
+C:/Users/ivann/Downloads/Blocs/resources/blocs.rc
+
