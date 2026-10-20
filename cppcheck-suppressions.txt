@@ -1,0 +1,5 @@
+# Suppressions cppcheck (une par ligne : id[:fichier])
+missingIncludeSystem
+unmatchedSuppression
+# Les signaux/slots Qt ne sont « appelés » que via connect() :
+unusedFunction

@@ -1,0 +1,95 @@
+name: CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  QT_VERSION: "6.8.*"      # à aligner sur la version de Qt utilisée en local
+
+jobs:
+  build-test:
+    name: Build + tests (${{ matrix.os }})
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: ubuntu-24.04
+            qt_arch: linux_gcc_64
+          - os: windows-2022
+            qt_arch: win64_mingw
+            qt_tools: tools_mingw1310
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Dépendances système (Linux)
+        if: runner.os == 'Linux'
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ninja-build libgl1-mesa-dev libxkbcommon-dev libegl1 libfontconfig1 libdbus-1-3
+
+      - name: Qt
+        uses: jurplel/install-qt-action@v4
+        with:
+          version: ${{ env.QT_VERSION }}
+          arch: ${{ matrix.qt_arch }}
+          tools: ${{ matrix.qt_tools }}
+          cache: true
+
+      - name: Ninja (Windows)
+        if: runner.os == 'Windows'
+        run: choco install ninja -y --no-progress
+
+      - name: Configurer
+        shell: bash
+        run: cmake --preset debug -DCMAKE_PREFIX_PATH="$QT_ROOT_DIR"
+
+      - name: Compiler
+        run: cmake --build --preset debug
+
+      - name: Tests
+        run: ctest --test-dir build/debug --output-on-failure
+        env:
+          QT_QPA_PLATFORM: offscreen
+
+  quality:
+    name: Qualité (clang-format, clang-tidy, cppcheck)
+    runs-on: ubuntu-24.04
+    # Informatif tant que le code existant n'est pas passé au format et à clang-tidy.
+    # Passer à « false » (ou supprimer la ligne) pour rendre ces contrôles bloquants.
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Outils
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ninja-build clang-format clang-tidy cppcheck libgl1-mesa-dev libxkbcommon-dev
+
+      - name: Qt
+        uses: jurplel/install-qt-action@v4
+        with:
+          version: ${{ env.QT_VERSION }}
+          arch: linux_gcc_64
+          cache: true
+
+      - name: Configurer
+        run: cmake --preset debug -DCMAKE_PREFIX_PATH="$QT_ROOT_DIR"
+
+      - name: Générer les fichiers moc (nécessaires à clang-tidy)
+        run: cmake --build build/debug --target blocs_core_autogen
+
+      - name: clang-format
+        run: cmake --build build/debug --target format-check
+
+      - name: clang-tidy
+        run: cmake --build build/debug --target tidy
+
+      - name: cppcheck
+        run: cmake --build build/debug --target cppcheck

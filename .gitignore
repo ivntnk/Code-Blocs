@@ -1,0 +1,31 @@
+# Compilation
+build/
+out/
+dist/
+cmake-build-*/
+CMakeLists.txt.user*
+CMakeUserPresets.json
+compile_commands.json
+.cache/
+
+# Qt Creator / IDE
+.qtcreator/
+*.user
+*.autosave
+.vs/
+.vscode/
+.idea/
+
+# Binaires et objets
+*.exe
+*.dll
+*.obj
+*.o
+*.a
+*.lib
+*.pdb
+
+# Paquets générés
+Blocs-*.zip
+Blocs-*.tar.gz
+Output/

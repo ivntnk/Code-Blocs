@@ -1,0 +1,58 @@
+# Analyse statique : bugs, performances, modernisation, lisibilité.
+# Les règles trop bruyantes pour du code Qt sont désactivées ci-dessous (avec la raison).
+# Aucun avertissement n'est bloquant (WarningsAsErrors vide) : on corrige progressivement.
+Checks: >
+  -*,
+  bugprone-*,
+  clang-analyzer-*,
+  concurrency-*,
+  misc-*,
+  modernize-*,
+  performance-*,
+  portability-*,
+  readability-*,
+  cppcoreguidelines-init-variables,
+  cppcoreguidelines-prefer-member-initializer,
+  cppcoreguidelines-slicing,
+  cppcoreguidelines-virtual-class-destructor,
+  -bugprone-easily-swappable-parameters,
+  -misc-non-private-member-variables-in-classes,
+  -misc-include-cleaner,
+  -misc-no-recursion,
+  -modernize-use-trailing-return-type,
+  -modernize-use-nodiscard,
+  -modernize-avoid-c-arrays,
+  -modernize-use-designated-initializers,
+  -readability-magic-numbers,
+  -readability-identifier-length,
+  -readability-function-cognitive-complexity,
+  -readability-convert-member-functions-to-static,
+  -readability-braces-around-statements,
+  -readability-else-after-return,
+  -readability-implicit-bool-conversion,
+  -readability-uppercase-literal-suffix,
+  -readability-qualified-auto
+
+WarningsAsErrors: ''
+HeaderFilterRegex: '.*[/\\](src|tests)[/\\].*'
+FormatStyle: file
+
+CheckOptions:
+  # Conventions du code existant : classes CamelCase, fonctions camelBack,
+  # membres privés « nom_ », constantes « kNom ».
+  - { key: readability-identifier-naming.NamespaceCase,       value: lower_case }
+  - { key: readability-identifier-naming.ClassCase,           value: CamelCase }
+  - { key: readability-identifier-naming.StructCase,          value: CamelCase }
+  - { key: readability-identifier-naming.EnumCase,            value: CamelCase }
+  - { key: readability-identifier-naming.EnumConstantCase,    value: CamelCase }
+  - { key: readability-identifier-naming.FunctionCase,        value: camelBack }
+  - { key: readability-identifier-naming.VariableCase,        value: camelBack }
+  - { key: readability-identifier-naming.ParameterCase,       value: camelBack }
+  - { key: readability-identifier-naming.PrivateMemberCase,   value: camelBack }
+  - { key: readability-identifier-naming.PrivateMemberSuffix, value: _ }
+  - { key: readability-identifier-naming.ConstexprVariableCase,   value: CamelCase }
+  - { key: readability-identifier-naming.ConstexprVariablePrefix, value: k }
+  - { key: readability-function-size.LineThreshold,           value: 150 }
+  - { key: modernize-use-default-member-init.UseAssignment,   value: true }
+  - { key: performance-unnecessary-value-param.AllowedTypes,  value: 'QString;QColor;QPointF;QRectF' }
+  - { key: misc-const-correctness.WarnPointersAsValues,       value: false }

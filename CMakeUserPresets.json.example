@@ -1,0 +1,18 @@
+{
+  "version": 3,
+  "cmakeMinimumRequired": { "major": 3, "minor": 21, "patch": 0 },
+  "configurePresets": [
+    {
+      "name": "local-release",
+      "displayName": "Release (chemins Qt personnalisés)",
+      "inherits": "mingw-release",
+      "cacheVariables": {
+        "CMAKE_PREFIX_PATH": "D:/Qt/6.12.0/mingw_64",
+        "CMAKE_C_COMPILER": "D:/Qt/Tools/mingw1310_64/bin/gcc.exe",
+        "CMAKE_CXX_COMPILER": "D:/Qt/Tools/mingw1310_64/bin/g++.exe",
+        "CMAKE_RC_COMPILER": "D:/Qt/Tools/mingw1310_64/bin/windres.exe",
+        "CMAKE_MAKE_PROGRAM": "D:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe"
+      }
+    }
+  ]
+}

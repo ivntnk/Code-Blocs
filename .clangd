@@ -1,0 +1,5 @@
+# Aide pour clangd (VS Code, Qt Creator, CLion…) : lit build/compile_commands.json
+CompileFlags:
+  CompilationDatabase: build
+Diagnostics:
+  ClangTidy: {}

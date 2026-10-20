@@ -1,0 +1,51 @@
+name: Release
+
+# Déclenché par un tag « v1.2.3 » : fabrique le .zip portable et l'installateur Windows.
+on:
+  push:
+    tags: ["v*"]
+
+env:
+  QT_VERSION: "6.8.*"
+
+jobs:
+  windows:
+    runs-on: windows-2022
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Qt
+        uses: jurplel/install-qt-action@v4
+        with:
+          version: ${{ env.QT_VERSION }}
+          arch: win64_mingw
+          tools: tools_mingw1310
+          cache: true
+
+      - run: choco install ninja -y --no-progress
+
+      - name: Compiler (Release)
+        shell: bash
+        run: |
+          cmake --preset release -DCMAKE_PREFIX_PATH="$QT_ROOT_DIR" -DBLOCS_BUILD_TESTS=OFF
+          cmake --build --preset release
+
+      - name: Installer dans dist/Blocs (copie aussi les DLL Qt)
+        shell: bash
+        run: cmake --install build/release --prefix dist/Blocs
+
+      - name: Zip portable + installateur
+        shell: pwsh
+        run: |
+          $version = "${{ github.ref_name }}".TrimStart("v")
+          Compress-Archive -Path dist/Blocs/* -DestinationPath "Blocs-$version-windows-portable.zip"
+          & "${env:ProgramFiles(x86)}\Inno Setup 6\ISCC.exe" "/DMyAppVersion=$version" installer\Blocs.iss
+
+      - name: Publier
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            Blocs-*-windows-portable.zip
+            dist/installer/Blocs-*-Setup.exe

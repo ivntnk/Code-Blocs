@@ -1,0 +1,42 @@
+# Style déduit du code existant : 4 espaces, accolades attachées, 120 colonnes,
+# « T* p » (étoile collée au type), « public: » au niveau de la classe.
+# Fonctionne avec clang-format >= 14.
+BasedOnStyle: LLVM
+Language: Cpp
+Standard: c++17
+
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+ColumnLimit: 120
+AccessModifierOffset: -4
+IndentCaseLabels: false
+NamespaceIndentation: None
+
+BreakBeforeBraces: Attach
+PointerAlignment: Left
+ReferenceAlignment: Left
+DerivePointerAlignment: false
+
+AllowShortFunctionsOnASingleLine: All
+AllowShortIfStatementsOnASingleLine: WithoutElse
+AllowShortLoopsOnASingleLine: true
+AllowShortLambdasOnASingleLine: All
+AllowShortCaseLabelsOnASingleLine: true
+AllowShortBlocksOnASingleLine: Empty
+AlwaysBreakTemplateDeclarations: Yes
+BinPackArguments: true
+BinPackParameters: true
+AlignAfterOpenBracket: Align
+AlignTrailingComments: true
+SpacesBeforeTrailingComments: 3
+FixNamespaceComments: true
+Cpp11BracedListStyle: true
+
+SortIncludes: CaseSensitive
+IncludeBlocks: Preserve
+ReflowComments: false
+
+# Macros Qt
+ForEachMacros: ['foreach', 'Q_FOREACH', 'forever']
+StatementMacros: ['Q_UNUSED', 'Q_OBJECT', 'Q_DECLARE_METATYPE', 'Q_DISABLE_COPY']
