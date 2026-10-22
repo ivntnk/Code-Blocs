@@ -107,8 +107,3 @@ docs/            architecture
 
 Détail des modules : [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md). Historique : [CHANGELOG.md](CHANGELOG.md).
 Contribuer : [CONTRIBUTING.md](CONTRIBUTING.md).
-
-## Licence
-
-À définir : ajouter un fichier `LICENSE` à la racine (il sera pris en compte automatiquement par CPack ;
-décommenter `LicenseFile` dans `installer/Blocs.iss` pour l'afficher dans l'installateur).
